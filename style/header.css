@@ -25,11 +25,11 @@ nav {
     width: 550px;
 }
 
-a {
+li a {
     position: relative;
 }
 
-a:hover:before{
+li a:hover:before{
     content: "";
     margin-top: 10px;
     width: 100%;
