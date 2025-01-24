@@ -12,14 +12,16 @@
     align-items: flex-end;
 }
 
-
-
 .banner p{
     font-family: "Protest Riot", serif;
     color: white;
     padding: 25px 25px;
     font-size: 64px;
-    -webkit-text-stroke: 1px #8583FF;
+    text-shadow: 
+    -1px -1px 0 #8583FF, 
+    1px -1px 0 #8583FF, 
+    -1px 1px 0 #8583FF, 
+    1px 1px 0 #8583FF;
 }
 
 .galeria {

@@ -1,0 +1,67 @@
+.depoimentos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mulher-sorridente img{
+    width: 800px;
+    height: auto;
+    position: relative;
+}
+
+.mulher-sorridente img::after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: url(../assets/detalhe-3pontos.svg) no-repeat;
+    position: absolute;
+    top: -10px;
+}
+
+.depoimento-textos {
+    background-color: #8583FF;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 80px;
+    
+}
+
+.depoimento-titulo {
+    color: #4442D4;
+    font-size: 2.25rem;
+    margin-bottom: 40px;
+    word-break: break-all;
+    width: 14ch;
+    position: relative;
+}
+
+.depoimento-titulo::before {
+    content: '';
+    width: 4px;
+    height: 66px;
+    background: linear-gradient(#5C5AE0 , #4442D4);
+    position: absolute;
+    left: -20px;
+}
+
+.depoimento-titulo::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    background: url(../assets/detalhe-3pontos.svg) no-repeat;
+    position: absolute;
+    top: 5px;
+    right: -300px;
+}
+
+.depoimento-paragrafo {
+    width: 500px;
+    color: #F0F0F0;
+    font-size: 1.25rem;
+    line-height: 36px;
+    margin-bottom: 60px;
+}
+
+.depoimento-button {
+
+}

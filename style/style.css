@@ -3,6 +3,7 @@
 @import 'reset.css';
 @import 'header.css';
 @import 'portfolio.css';
+@import 'depoimentos.css';
 
 
 body {
@@ -10,3 +11,12 @@ body {
     margin: 0;
 }
 
+.button-orcamento {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #6462F0;
+    color: #1F1DA2;
+    font-weight: bolder;
+    padding: 16px 16px;
+    border-radius: 4px;
+}
