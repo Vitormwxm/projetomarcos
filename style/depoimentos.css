@@ -1,5 +1,7 @@
 .depoimentos {
     display: grid;
+    max-width: 1600px;
+    margin: 0 auto;
     grid-template-columns: 1fr 1fr;
 }
 
