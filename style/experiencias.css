@@ -1,0 +1,57 @@
+.experiencia {
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #8583FF;
+    justify-content: center;
+    padding: 80px 0px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    position: relative;
+}
+
+
+
+.experiencia-lista {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+   
+}
+
+.experiencia-lista::after {
+    content: '';
+    width: 350px;
+    height: 350px;
+    background: url('../assets/img-experiencias/retangulo-experiencia.svg') no-repeat;
+    position: absolute;
+    top: -60px;
+    left: 1000px;
+}
+
+.experiencia-lista-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.experiencia-titulo {
+    font-size: 2rem;
+    color: #ffff;
+}
+
+.experiencia-paragrafo {
+    color: #4442D4;
+    text-align: left;
+    width: 300px;
+    margin-left: 80px;
+    font-size: 1.25rem;
+}
+
+.experiencia-paragrafo-detalhe {
+    width: 300px;
+    height: 42px;
+    text-align: start;
+}
