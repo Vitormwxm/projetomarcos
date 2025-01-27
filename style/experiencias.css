@@ -27,6 +27,7 @@
     position: absolute;
     top: -60px;
     left: 1000px;
+    z-index: -1;
 }
 
 .experiencia-lista-item {

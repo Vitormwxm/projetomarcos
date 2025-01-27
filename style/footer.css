@@ -1,0 +1,85 @@
+.footer {
+
+    background-color: #8583FF;
+    padding: 80px 20px;
+   
+   
+}
+
+.footer-infos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-info-gerais {
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 300px;
+    margin-right: 30px;
+    
+
+}
+
+.info-atendimento p {
+    margin-top: 5px;
+    font-weight: 400;
+}
+
+.info-localizacao{
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+}
+
+.info-localizacao .localizacao {
+    font-weight: 300px;
+    font-size: 1.25rem;
+}
+
+.info-redes-sociais {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pagamentos {
+    display: flex;
+    flex: 1;
+    height: 300px;
+}
+
+.pagamentos ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pagamentos img {
+    width: 30px;
+}
+
+.info-redes-sociais .svg-instagram {
+    width: 26px;
+}
+
+.info-redes-sociais .svg-whatsapp {
+    width: 29px;
+}
+
+.svg-instagram:hover,
+.svg-whatsapp:hover {
+    transform: scale(1.1); /* Leve aumento no hover */
+}
+
+
+.footer h3 {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}

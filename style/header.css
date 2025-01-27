@@ -25,11 +25,11 @@ nav {
     width: 550px;
 }
 
-li a {
+li .header-menu-item {
     position: relative;
 }
 
-li a:hover:before{
+li .header-menu-item:hover:before{
     content: "";
     margin-top: 10px;
     width: 100%;
