@@ -8,6 +8,10 @@
 @import 'experiencias.css';
 @import 'footer.css';
 
+:root {
+    --roxo-principal: #6462F0;
+    --fundo-1: #8583FF;
+}
 
 body {
     font-family: "Poppins", serif;

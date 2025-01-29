@@ -46,7 +46,7 @@ button {
 }
 
 #button-orcamento{
-    background-color: #6462F0;
+    background-color: var(--roxo-principal);
     color: #1F1DA2;
     font-weight: bolder;
     padding: 16px 16px;
@@ -62,7 +62,7 @@ button {
 
 .separador {
     display: block;
-    border-bottom: 1px solid #6462F0;
+    border-bottom: 1px solid var(--roxo-principal);
     margin-top: 1%;
 
 }
@@ -91,6 +91,6 @@ button {
         background-color: #7B79F9;
     }
     .header-menu a {
-        color:#1F1DA2 ;
+        color: var(--roxo-principal) ;
     }
 }
