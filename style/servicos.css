@@ -27,6 +27,8 @@
 .servicos-lista {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 
@@ -52,3 +54,4 @@
     margin-bottom: 50px;
     color: #757575;
 }
+

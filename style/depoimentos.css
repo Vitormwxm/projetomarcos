@@ -3,12 +3,17 @@
     max-width: 1600px;
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
 }
 
-.mulher-sorridente img{
-    width: 800px;
+.mulher-sorridente{
+    width: 100%;
     height: auto;
     position: relative;
+    background-image: url('../assets/mulher-sorridente.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .mulher-sorridente img::after{
@@ -43,7 +48,7 @@
     height: 66px;
     background: linear-gradient(#5C5AE0 , #4442D4);
     position: absolute;
-    left: -20px;
+    left: -1rem;
 }
 
 .depoimento-titulo::after {
@@ -64,6 +69,20 @@
     margin-bottom: 60px;
 }
 
-.depoimento-button {
+@media (max-width: 1100px) {
+   .depoimentos {
+    max-width: 1100px;
+    grid-template-columns: 1fr;
+   }
 
+}
+
+@media (max-width: 700px) {
+    .depoimentos {
+        max-width: 700px;
+    }
+
+    .depoimento-titulo::after {
+        display: none;
+    }
 }

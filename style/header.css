@@ -26,18 +26,23 @@ nav {
 }
 
 li .header-menu-item {
+    color: #514FDF;
     position: relative;
 }
 
-li .header-menu-item:hover:before{
+li .header-menu-item::before {
     content: "";
     margin-top: 10px;
-    width: 100%;
+    width: 0%;
     height: 2px;
     top: 100%;
     background-color:#514FDF;
-    transition: all 0.7s ease-out;
+    transition: all 0.3s ease-out;
     position: absolute;
+}
+
+li .header-menu-item:hover:before{
+    width: 100%;
 }
 
 button {
