@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Riot&display=swap');
 
 @import 'global/reset.css';
-@import 'header.css';
-@import 'portfolio.css';
-@import 'depoimentos.css';
-@import 'servicos.css';
-@import 'experiencias.css';
-@import 'footer.css';
+@import 'home/header.css';
+@import 'home/portfolio.css';
+@import 'home/depoimentos.css';
+@import 'home/servicos.css';
+@import 'home/experiencias.css';
+@import 'home/footer.css';
+
+@import 'util/components.css';
+@import 'util/espacamentos.css';
+@import 'util/font-weight.css';
+@import 'util/tipografia.css';
 
 :root {
     --roxo-principal: #6462F0;
@@ -18,12 +23,4 @@ body {
     margin: 0;
 }
 
-.button-orcamento {
-    display: inline-block;
-    text-transform: uppercase;
-    background-color: #6462F0;
-    color: #1F1DA2;
-    font-weight: bolder;
-    padding: 16px 16px;
-    border-radius: 4px;
-}
+

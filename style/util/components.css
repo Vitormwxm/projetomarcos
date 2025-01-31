@@ -1,0 +1,32 @@
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    background: linear-gradient(#7876fb , #6462F0);
+    color: #2725AC;
+    font-weight: 500;
+    padding: 16px 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px;
+}
+
+.button:hover {
+    background: linear-gradient(#6c69fe , #5855e5) ;
+   
+    transition: 0.2s;
+}
+
+#button {
+    display: inline-block;
+    text-transform: uppercase;
+    background: linear-gradient(#7876fb , #6462F0);
+    color: #2725AC;
+    padding: 16px 16px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 2px;
+}
+
+#button:hover {
+    background: linear-gradient(#6c69fe , #5855e5) ;
+   
+    transition: 0.2s;
+}
