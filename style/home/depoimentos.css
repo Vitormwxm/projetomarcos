@@ -82,6 +82,10 @@
         max-width: 700px;
     }
 
+    .depoimento-paragrafo {
+        width: 400px;
+    }
+
     .depoimento-titulo::after {
         display: none;
     }
