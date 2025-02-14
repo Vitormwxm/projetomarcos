@@ -11,7 +11,11 @@
 @import 'util/components.css';
 @import 'util/espacamentos.css';
 @import 'util/font-weight.css';
+@import 'util/cores.css';
 @import 'util/tipografia.css';
+
+/*Sobre nos css*/
+@import 'sobre-nos/sobrenos.css';
 
 :root {
     --roxo-principal: #6462F0;
