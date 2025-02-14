@@ -8,7 +8,8 @@
 
 .mulher-sorridente{
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     position: relative;
     background-image: url('../../assets/mulher-sorridente.jpg') ;
     background-size: cover;
@@ -58,7 +59,7 @@
     background: url(../assets/detalhe-3pontos.svg) no-repeat;
     position: absolute;
     top: 5px;
-    right: -300px;
+    right: -100px;
 }
 
 .depoimento-paragrafo {

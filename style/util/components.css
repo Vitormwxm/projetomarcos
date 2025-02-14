@@ -37,3 +37,7 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+
+.col-2 {
+    grid-column: 1 / -1;
+}

@@ -18,24 +18,28 @@
     max-width: 1200px;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .experiencia-lista::after {
     content: '';
-    width: 350px;
-    height: 350px;
-    background: url('../assets/img-experiencias/retangulo-experiencia.svg') no-repeat;
+    display: inline-block;
+    
+    width: 450px;
+    height: 450px;
+    background: url('../../assets/retangulo-experiencia.svg') no-repeat;
     position: absolute;
-    top: -60px;
-    left: 1000px;
+    top: -130px;
+    left: 700px;
     z-index: -1;
+  
 }
 
 .experiencia-lista-item {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     justify-content: center;
 }
 
@@ -47,7 +51,7 @@
 .experiencia-paragrafo {
     color: #4442D4;
     text-align: left;
-    width: 300px;
+    word-wrap: break-word;
     margin-left: 80px;
     font-size: 1.25rem;
 }

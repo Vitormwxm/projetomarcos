@@ -3,16 +3,23 @@
     margin: 0 auto;
     padding: 20px 20px;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr ;
     place-items: center;
 }
 
 .banner {
     display: flex;
-    height: 50vh;
-    background-image: url("/assets/banner-principal.jpg");
     background-repeat: no-repeat;
     align-items: flex-end;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner p {
+    position: absolute;
 }
 
 .banner p{
@@ -61,8 +68,8 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    top: 450px; /* Distância do topo */
-    right: -10px;
+    top: 350px; /* Distância do topo */
+    right: 100px;
     z-index: -1; 
 }
 
