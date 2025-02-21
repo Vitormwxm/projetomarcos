@@ -20,7 +20,7 @@
                 <li><a class="header-menu-item" href="">inicio</a></li>
                 <li><a class="header-menu-item" href="sobre-nós.html">Sobre nós</a></li>
                 <li><a class="header-menu-item" href="">Móveis</a></li> 
-                <li><a class="header-menu-item" href="">Serviços</a></li>
+                <li><a class="header-menu-item" href="#servicos1">Serviços</a></li>
                 <li><button id="button" class="font-w-r" href="">Solicite Orçamento</button></li>
             </ul>
         </nav>
@@ -32,15 +32,45 @@
             <img src="assetswebpg/banner-principal.webp" alt="">
             <p>Cantinho do café</p>
         </div>
-
+        
         <div class="galeria">
-            <div class="item" style="background-image: url('/assetswebpg/rack.webp');"></div>
-            <div class="item" style="background-image: url('/assetswebpg/foto-marcos\ \(1\).webp');"></div>
-            <div class="item" style="background-image: url('/assetswebpg/mesa-hight.webp');"></div>
+            <div class="item">
+                <picture>
+                    <source srcset="/assetwebpg-baixa-resolucao/rack.webp" media="(max-width: 768px)">
+                    <img src="assetwebpg-baixa-resolucao/rack.webp" width="288" height="280" alt="rack">
+                </picture>
+            </div>
+            <div class="item"> 
+                <picture>
+                    <source srcset="/assetwebpg-baixa-resolucao/estante.webp" media="(max-width: 768px)">
+                    <img src="assetwebpg-baixa-resolucao/estante.webp" alt="rack">
+                </picture>
+            </div>
+            <div class="item" >
+                <picture>
+                    <source srcset="/assetwebpg-baixa-resolucao/mesa.webp" media="(max-width: 768px)">
+                    <img src="assetwebpg-baixa-resolucao/mesa.jpg" alt="rack">
+                </picture>
+            </div>
 
-            <div class="item" style="background-image: url('/assetswebpg/estante.webp');"></div>
-            <div class="item" style="background-image: url('/assetswebpg/mesa-vidro2.webp');"></div>
-            <div class="item" style="background-image: url('/assetswebpg/mesa-hight.webp');"></div>
+            <div class="item" >
+                <picture>
+                    <source srcset="/assetwebpg-baixa-resolucao/estante-parede.webp" media="(max-width: 768px)">
+                    <img src="assetwebpg-baixa-resolucao/estante-parede.png" alt="rack">
+                </picture>
+            </div>
+            <div class="item">
+                <picture>
+                    <source srcset="/assetwebpg-baixa-resolucao/estante-parede.webp" media="(max-width: 768px)">
+                    <img src="assetwebpg-baixa-resolucao/mesa-vidro.webp" alt="mesa de vidro">
+                </picture>
+            </div>
+            <div class="item" >
+                <picture>
+                    <source srcset="/assetwebpg-baixa-resolucao/mesa.webp" media="(max-width: 768px)">
+                    <img src="assetwebpg-baixa-resolucao/mesa.jpg" alt="rack">
+                </picture>
+            </div>
 
             
         </div>
@@ -66,7 +96,7 @@
         </div>
     </section>
 
-    <section class="servicos">
+    <section id="servicos1" class="servicos">
         <h2> serviços</h2>
 
         <ul class="servicos-lista">
