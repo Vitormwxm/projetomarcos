@@ -17,6 +17,9 @@
 /*Sobre nos css*/
 @import 'sobre-nos/sobrenos.css';
 
+/*atendimento css*/
+@import 'atendimento/atendimento.css';
+
 :root {
     --roxo-principal: #6462F0;
     --fundo-1: #8583FF;

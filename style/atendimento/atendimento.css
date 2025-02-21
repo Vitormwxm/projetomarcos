@@ -1,0 +1,100 @@
+.atendimento-personalizado{
+    display: grid;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 60px;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.atendimento-personalizado form {
+    text-align: center;
+}
+
+.atendimento-personalizado h2 {
+    font-size: 32px;
+    font-family: "Poppins" , sans-serif;
+    color: #8583ff;
+    font-weight: 500;
+    margin-bottom: 40px;
+   
+}
+
+
+.atendimento-personalizado div label {
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    text-align: left;
+   
+}
+
+.atendimento-personalizado div input,
+textarea{
+    padding: 12px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid #8583FF;
+    appearance: #8583FF;
+    outline: none;
+    width: 100%;
+    text-align: left;
+}
+
+.atendimento-personalizado div input:hover{
+    box-shadow: 0px 1px 1px 0px;
+}
+
+#atendimento .button {
+    margin: 60px 0px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+
+    .atendimento-personalizado h2 {
+        font-size: 24px;
+    }
+
+    .atendimento-personalizado div label {
+        font-size: 16px;
+    }
+
+    .atendimento-personalizado div {
+       
+        text-align: right;
+    }
+
+    .atendimento-personalizado form {
+        text-align: initial;
+    }
+
+    #atendimento .button {
+        margin: 40px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .atendimento-personalizado {
+        width: auto;
+    }
+    .atendimento-personalizado h2 {
+        max-width: 100%;
+    }
+
+    .atendimento-personalizado div {
+        width: 80%;
+    }
+
+    .atendimento-personalizado {
+        display: inline-block;
+    }
+
+    
+}
+
